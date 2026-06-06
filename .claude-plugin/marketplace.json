@@ -1,0 +1,17 @@
+{
+  "name": "daemons",
+  "owner": { "name": "Daemons" },
+  "metadata": {
+    "description": "Daemons — private, self-owned AI companions that run on your own Claude.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "daemon",
+      "source": "./",
+      "description": "A database of you that your Claude can read — with a small entity that seals a guess before every question and grows when you surprise it.",
+      "version": "0.1.0",
+      "author": { "name": "Daemons" }
+    }
+  ]
+}

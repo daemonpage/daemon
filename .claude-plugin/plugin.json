@@ -1,0 +1,8 @@
+{
+  "name": "daemon",
+  "description": "A database of you that your Claude can read — with a small entity that seals a guess before every question and grows when you surprise it. Plain files, your machine, your subscription.",
+  "version": "0.1.0",
+  "author": { "name": "Daemons" },
+  "homepage": "https://daemon.page",
+  "keywords": ["personal", "vault", "memory", "hatching", "self", "daemon"]
+}
