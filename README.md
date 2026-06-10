@@ -1,8 +1,10 @@
 # Daemon
 
-**A database of you, that your Claude can read. With a small entity inside that tries to guess your answers — and grows when it's wrong.**
+**Claude that knows you, not just your code.**
 
-Daemon turns the Claude you already pay for into something that actually knows you. It lives in plain files on your machine, behind nothing but your filesystem. We never see anything; there is no server.
+A personal vault of who you are — your style, your values, your history — that every Claude session reads, across every project. It fills itself by asking you questions and learning when it guesses wrong. Plain files on your machine. Runs on the Claude subscription you already pay for. No server, no account, nothing leaves.
+
+> Other memory tools remember what you *did* yesterday. Daemon learns who you *are*.
 
 ## What it does
 
@@ -22,7 +24,7 @@ Daemon turns the Claude you already pay for into something that actually knows y
 Requires [Claude Code](https://claude.com/claude-code) (any paid plan) and Node 18+.
 
 ```bash
-git clone https://github.com/REPLACE_ME/daemon
+git clone https://github.com/Camaraarthur/daemon-skill
 cd daemon && ./install.sh
 ```
 

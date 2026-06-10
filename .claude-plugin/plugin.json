@@ -1,8 +1,16 @@
 {
   "name": "daemon",
-  "description": "A database of you that your Claude can read — with a small entity that seals a guess before every question and grows when you surprise it. Plain files, your machine, your subscription.",
+  "description": "Claude that knows you, not just your code. A personal vault of your style, values, and history that every session reads — across every project. Yours, in plain files. It learns you by asking, and owns up when it guesses wrong.",
   "version": "0.1.0",
   "author": { "name": "Daemons" },
   "homepage": "https://daemon.page",
-  "keywords": ["personal", "vault", "memory", "hatching", "self", "daemon"]
+  "repository": "https://github.com/Camaraarthur/daemon-skill",
+  "license": "MIT",
+  "keywords": ["personal", "vault", "memory", "hatching", "self", "daemon"],
+  "mcpServers": {
+    "daemon": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/skills/daemon/mcp/server.mjs"]
+    }
+  }
 }

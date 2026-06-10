@@ -9,7 +9,7 @@
     {
       "name": "daemon",
       "source": "./",
-      "description": "A database of you that your Claude can read — with a small entity that seals a guess before every question and grows when you surprise it.",
+      "description": "Claude that knows you, not just your code. A personal vault of your style, values, and history that every session reads — across every project. Yours, in plain files. It learns you by asking, and owns up when it guesses wrong.",
       "version": "0.1.0",
       "author": { "name": "Daemons" }
     }
