@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": { "name": "Daemons" },
   "homepage": "https://daemon.page",
-  "repository": "https://github.com/Camaraarthur/daemon-skill",
+  "repository": "https://github.com/daemonpage/daemon",
   "license": "MIT",
   "keywords": ["personal", "vault", "memory", "hatching", "self", "daemon"],
   "mcpServers": {

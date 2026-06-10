@@ -24,7 +24,7 @@ A personal vault of who you are — your style, your values, your history — th
 Requires [Claude Code](https://claude.com/claude-code) (any paid plan) and Node 18+.
 
 ```bash
-git clone https://github.com/Camaraarthur/daemon-skill
+git clone https://github.com/daemonpage/daemon
 cd daemon && ./install.sh
 ```
 
